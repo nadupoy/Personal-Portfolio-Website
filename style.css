@@ -1,0 +1,418 @@
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    html {
+        background-color: #F5F5F5;
+    }
+
+    header {
+        background-image: url('images/111-coding-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 720px;
+        background-position: center bottom;
+    }
+
+    nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+    }
+
+    nav > a {
+        font-weight: 700;
+        color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    header > div {
+        width: 320px;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #283035;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #283035;
+        font-weight: 400;
+    }
+
+    main h2 {
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #about {
+        width: 320px;
+        margin: auto;
+    }
+
+    #about > p {
+        line-height: 1.2;
+        font-size: 16px;
+    }
+
+    #projects {
+        width: 320px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin: auto;
+        row-gap: 25px;
+    }
+
+    #projects img {
+        object-fit: cover;
+        width: 320px;
+        height: 320px;
+        border-radius: 10px;
+    }
+
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
+    #projects p {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    #projects a {
+        font-weight: 700;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer {
+        margin-top: 40px;
+        background-color: #1BB1B2;
+        height: 180px;
+        display: grid;
+        align-items: center;
+        color: #283035;
+    }
+
+    footer a {
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    footer a:visited {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer > a {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    footer > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    html {
+        background-color: #F5F5F5;
+    }
+
+    header {
+        background-image: url('images/111-coding-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 720px;
+        background-position: center bottom;
+    }
+
+    nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+    }
+
+    nav > a {
+        font-weight: 700;
+        color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    header > div {
+        width: 540px;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #283035;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 36px;
+        color: #283035;
+        font-weight: 400;
+    }
+
+    main h2 {
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #about {
+        width: 540px;
+        margin: auto;
+    }
+
+    #about > p {
+        line-height: 1.2;
+        font-size: 16px;
+    }
+
+    #projects {
+        width: 540px;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin: auto;
+        row-gap: 40px;
+    }
+
+    #projects img {
+        object-fit: cover;
+        width: 540px;
+        height: 540px;
+        border-radius: 10px;
+    }
+
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
+    #projects a {
+        font-weight: 700;
+    }
+
+    #projects p {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer {
+        margin-top: 40px;
+        background-color: #1BB1B2;
+        height: 180px;
+        display: grid;
+        align-items: center;
+        color: #283035;
+    }
+
+    footer a {
+        font-weight: 700;
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer a:visited {
+        font-weight: 700;
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer > a {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    footer > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    html {
+        background-color: #F5F5F5;
+    }
+
+    header {
+        background-image: url('images/111-coding-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 720px;
+    }
+
+    nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+    }
+
+    nav > a {
+        font-weight: 700;
+        color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    header > div {
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 72px;
+        color: #283035;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 48px;
+        color: #283035;
+        font-weight: 400;
+    }
+
+    main  h2 {
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #about {
+        width: 900px;
+        margin: auto;
+    }
+
+    #about > p {
+        line-height: 1.2;
+        font-size: 16px;
+    }
+
+    #projects {
+        width: 900px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        column-gap: 25px;
+    }
+
+    #projects  img {
+        object-fit: cover;
+        width: 275px;
+        height: 275px;
+        border-radius: 10px;
+    }
+
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
+    #projects p {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
+
+    #projects a {
+        font-weight: 700;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer {
+        margin-top: 40px;
+        background-color: #1BB1B2;
+        height: 180px;
+        display: grid;
+        align-items: center;
+        color: #283035;
+    }
+
+    footer a {
+        font-weight: 700;
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer a:visited {
+        font-weight: 700;
+        text-decoration: none;
+        color: #283035;
+    }
+
+    footer > a {
+        color: #283035;
+        text-decoration: none;
+    }
+
+    footer > a:visited {
+        color: #283035;
+        text-decoration: none;
+    }
+}
