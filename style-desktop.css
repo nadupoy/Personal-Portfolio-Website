@@ -1,0 +1,86 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #F5F5F5;
+    /*display: grid;
+    justify-content: center;*/
+}
+
+header {
+    background-image: url('images/111-coding-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 100%;
+}
+
+nav {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+}
+
+nav > a {
+    margin-top: 20px;
+}
+
+header > div {
+    margin-top: 40px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+#about {
+    width: 600px;
+    margin: auto;
+}
+
+#about > h2 {
+    margin-bottom: 20px;
+}
+
+main > h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#projects {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    column-gap: 60px;
+    grid-template-columns: 300px 300px 300px;
+}
+
+#projects img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#projects p {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #1BB1B2;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#socials {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
