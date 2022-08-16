@@ -10,11 +10,11 @@
     }
 
     header {
-        background-image: url('images/111-coding-1.png');
+        background-image: url('images/111-coding-2.png');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 600px;
-        background-position: center center;
+        background-position: center bottom;
+        height: 720px;
     }
 
     nav {
@@ -27,20 +27,26 @@
     nav > a {
         font-weight: 700;
         color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
     }
 
     header > div {
-        margin-top: 60px;
+        margin-top: 100px;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 72px;
         color: #283035;
         font-weight: 700;
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 48px;
         color: #283035;
         font-weight: 400;
     }
@@ -76,9 +82,27 @@
         border-radius: 10px;
     }
 
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
     #projects p {
         margin-top: 10px;
         line-height: 1.2;
+    }
+
+    #projects a {
+        font-weight: 700;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
     }
 
     footer {
@@ -87,5 +111,11 @@
         height: 180px;
         display: grid;
         align-items: center;
+        color: #283035;
+    }
+
+    footer a {
+        font-weight: 700;
+        text-decoration: none;
     }
 }

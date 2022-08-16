@@ -27,6 +27,12 @@
     nav > a {
         font-weight: 700;
         color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
     }
 
     header > div {
@@ -78,6 +84,10 @@
         border-radius: 10px;
     }
 
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
     #projects a {
         font-weight: 700;
     }
@@ -85,6 +95,16 @@
     #projects p {
         margin-top: 10px;
         line-height: 1.2;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
     }
 
     footer {

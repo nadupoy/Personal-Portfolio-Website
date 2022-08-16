@@ -11,14 +11,14 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
         </style>
-        <link rel="stylesheet" href="style-desktop.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <nav>
-                <a>ABOUT ME</a>
-                <a>PROJECTS</a>
+            <nav id="navlinks">
+                <a href="#about">ABOUT ME</a>
+                <a href="#projects-section">PROJECTS</a>
             </nav>
 
             <div>
@@ -36,45 +36,51 @@
                 </p>
             </section>
 
-            <h2>PROJECTS:</h2>
+            <h2 id="projects-section">PROJECTS:</h2>
 
             <section id="projects">    
                 <section id="project-01">
-                    <img src="images/Base Apparel Coming Soon - solution.png" alt="client-side-form-verification-project">
+                    <a href="https://base-apparel-coming-soon-solution-nadupoy.netlify.app/" target="_blank">
+                        <img src="images/Base Apparel Coming Soon - solution.png" alt="client-side-form-verification-project">
+                    </a>
                     
                     <p>
-                        Client side form verification. A <a>Frontend Mentor</a> project solution.
+                        Client side form verification. A <a class="frontendmentor" href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a> project solution.
                     </p>
                 </section>
 
                 <section id="project-02">
-                    <img src="images/Testimonials Grid Section - solution.png" alt="testimonials-section-responsive-grid-design-project">
+                    <a href="https://testimonials-grid-section-nadupoy.netlify.app/" target="_blank">
+                        <img src="images/Testimonials Grid Section - solution.png" alt="testimonials-section-responsive-grid-design-project">
+                    </a>
 
                     <p>
-                        Responsive grid section. A <a>Frontend Mentor</a> project solution.
+                        Responsive grid section. A <a class="frontendmentor" href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a> project solution.
                     </p>
                 </section>
 
                 <section id="project-03">
-                    <img src="images/QR Code Component - solution.png" alt="qr-code-component-project">
+                    <a href="https://qr-code-component-main-solution-nadupoy.netlify.app/" target="_blank">
+                        <img src="images/QR Code Component - solution.png" alt="qr-code-component-project">
+                    </a>
 
                     <p>
-                        QR code component. A <a>Frontend Mentor</a> project solution.
+                        QR code component. A <a class="frontendmentor" href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a> project solution.
                     </p>
                 </section>
             </section>
         </main>
 
         <footer>
-            <a>Back to top</a>
+            <a href="#navlinks">Back to top</a>
 
             <section id="socials">
-                <a><img src="images/icons8-github.svg" alt="github-link-icon"></a>
+                <a href="https://github.com/nadupoy" target="_blank"><img src="images/icons8-github.svg" alt="github-link-icon"></a>
 
-                <a><img src="images/icons8-linkedin-circled.svg" alt="linkedin-link-icon"></a>
+                <a href="https://www.linkedin.com/in/grace-sampao-49a3129b/" target="_blank"><img src="images/icons8-linkedin-circled.svg" alt="linkedin-link-icon"></a>
             </section>
 
-            <p>Icons by <a>Icon8</a></p>
+            <p>Icons by <a href="https://icons8.com" target="_blank">Icons8</a></p>
         </footer>
     </body>
 </html>

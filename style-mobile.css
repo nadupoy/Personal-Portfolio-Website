@@ -1,4 +1,4 @@
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 375px) and (max-width: 599px) {
     * {
         font-family: 'Ubuntu', sans-serif;
         margin: 0;
@@ -13,8 +13,8 @@
         background-image: url('images/111-coding-2.png');
         background-size: cover;
         background-repeat: no-repeat;
-        height: 600px;
-        background-position: center center;
+        height: 720px;
+        background-position: center bottom;
     }
 
     nav {
@@ -27,10 +27,18 @@
     nav > a {
         font-weight: 700;
         color: #283035;
+        text-decoration: none;
+    }
+
+    nav > a:visited {
+        color: #283035;
+        text-decoration: none;
     }
 
     header > div {
-        margin-top: 60px;
+        width: 320px;
+        margin: auto;
+        margin-top: 100px;
     }
 
     h1 {
@@ -76,9 +84,27 @@
         border-radius: 10px;
     }
 
+    #projects img:hover {
+        transform: scale(1.05);
+    }
+
     #projects p {
         margin-top: 10px;
         line-height: 1.2;
+    }
+
+    #projects a {
+        font-weight: 700;
+    }
+
+    .frontendmentor {
+        text-decoration: none;
+        color: #283035;
+    }
+
+    .frontendmentor:visited {
+        text-decoration: none;
+        color: #283035;
     }
 
     footer {
@@ -88,5 +114,10 @@
         display: grid;
         align-items: center;
         color: #283035;
+    }
+
+    footer a {
+        font-weight: 700;
+        text-decoration: none;
     }
 }
