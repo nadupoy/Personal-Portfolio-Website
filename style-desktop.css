@@ -1,86 +1,91 @@
-* {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    text-align: center;
-}
+@media screen and (min-width: 1200px) {
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        text-align: center;
+    }
 
-body {
-    background-color: #F5F5F5;
-    /*display: grid;
-    justify-content: center;*/
-}
+    html {
+        background-color: #F5F5F5;
+    }
 
-header {
-    background-image: url('images/111-coding-1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 600px;
-    width: 100%;
-}
+    header {
+        background-image: url('images/111-coding-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position: center center;
+    }
 
-nav {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 200px 200px;
-}
+    nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+    }
 
-nav > a {
-    margin-top: 20px;
-}
+    nav > a {
+        font-weight: 700;
+        color: #283035;
+    }
 
-header > div {
-    margin-top: 40px;
-}
+    header > div {
+        margin-top: 60px;
+    }
 
-main {
-    margin-top: 60px;
-}
+    h1 {
+        font-size: 48px;
+        color: #283035;
+        font-weight: 700;
+    }
 
-#about {
-    width: 600px;
-    margin: auto;
-}
+    h2 {
+        font-size: 36px;
+        color: #283035;
+        font-weight: 400;
+    }
 
-#about > h2 {
-    margin-bottom: 20px;
-}
+    main  h2 {
+        font-weight: 700;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
 
-main > h2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
+    #about {
+        width: 900px;
+        margin: auto;
+    }
 
-#projects {
-    margin: auto;
-    display: grid;
-    justify-content: center;
-    column-gap: 60px;
-    grid-template-columns: 300px 300px 300px;
-}
+    #about > p {
+        line-height: 1.2;
+        font-size: 16px;
+    }
 
-#projects img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
+    #projects {
+        width: 900px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+        column-gap: 25px;
+    }
 
-#projects p {
-    margin-top: 20px;
-}
+    #projects  img {
+        object-fit: cover;
+        width: 275px;
+        height: 275px;
+        border-radius: 10px;
+    }
 
-footer {
-    margin-top: 60px;
-    background-color: #1BB1B2;
-    height: 200px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
+    #projects p {
+        margin-top: 10px;
+        line-height: 1.2;
+    }
 
-#socials {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 20px;
+    footer {
+        margin-top: 40px;
+        background-color: #1BB1B2;
+        height: 180px;
+        display: grid;
+        align-items: center;
+    }
 }
